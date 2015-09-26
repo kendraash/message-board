@@ -1,0 +1,16 @@
+{"questions": [{
+  "text": "What is Ember?",
+  "author": "Kendra",
+  "notes": "Looking for clarification"
+  },
+  {
+  "text": "What is JavaScript?",
+  "author": "Sally",
+  "notes": "All things JavaScript"
+  },
+  {
+  "text": "What is a route?",
+  "author": "Joe",
+  "notes": "Looking for it in terms of Ember"
+  }
+]}
