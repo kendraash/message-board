@@ -1,0 +1,63 @@
+
+body {  background-color: #FFFFFF;
+		color: #666666;
+		font-family: Arial, sans-serif;  }
+
+header {background-color: #000033;
+		font-family: "Times New Roman", Georgia, serif;
+		color: #FFFFFF; margin-bottom: 0;
+		background-repeat: no-repeat;
+		background-position: right top;
+		padding: 10px; }
+h1 { font-family: "Times New Roman", Georgia, serif;}
+h2 { color: #3399CC;
+		 font-family: "Times New Roman", Georgia, serif;
+		 text-shadow: 1px 1px 1px #ccc;}
+h3{color: #000033;
+	 font-family: "Times New Roman", Georgia, serif; }
+
+nav {	float:left;
+		padding-right: 20px;
+		padding-top: 20px;
+		padding-bottom: 5px;
+    padding-left: 20px;
+		width:150px;
+		font-weight: bold;}
+
+
+
+#wrapper { width: 80%;
+			margin-left: auto;
+			margin-right: auto;
+			min-width: 960px;
+			background-color: #90C7E3;
+			box-shadow: 5px 5px 5px #000033; }
+
+#content {  background-color: #FFFFFF;
+			padding-right: 10px;
+			padding-left: 10px;
+			padding-bottom: 10px;
+			padding-top: 1px;
+			margin-left: 150px;  }
+
+
+
+
+footer { 	background-color: #FFFFFF;
+			margin-left: 150px;
+			padding: 20px;
+			font-size: 75%;
+			font-family: "Times New Roman", Georgia, serif;
+			font-style: italic; }
+
+nav ul { list-style-type: none;
+			padding: 0;
+			margin:0;
+			font-size: 1.2em; }
+
+nav a { text-decoration: none;
+		display: block; }
+
+nav a:link {color: #000033; }
+nav a:visited { color:#344873 }
+nav a:hover {color:FFFFFF }
