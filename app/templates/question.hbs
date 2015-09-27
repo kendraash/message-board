@@ -1,4 +1,8 @@
 <h4>More information about: {{model.text}}<br> By: {{model.author}}<br> Notes: {{model.notes}}</h4>
 
+{{#each model.answers as |answer|}}
+  {{answer.text}} <br> By: {{answer.author}}
+{{/each}}
 
 <button {{action 'delete' model}}>Delete</button>
+{{update-question model=model update="update"}}
