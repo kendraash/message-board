@@ -1,7 +1,7 @@
 # Message-board
+# By Kendra Ash
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This application is a place to host questions and allow multiple users to leave answers to a particular question. This app was designed for learning purposes only.
 
 ## Prerequisites
 
@@ -41,7 +41,8 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+* run ember s
+* visit localhost:4200
 
 ## Further Reading / Useful Links
 
@@ -50,4 +51,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
