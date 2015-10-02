@@ -11,6 +11,7 @@ export default Ember.Component.extend({
       var params = {
         text: this.get('text'),
         author: this.get('author'),
+        date: new Date(),
         question: this.get('question')
       };
       this.set('newAnswerForm', false);

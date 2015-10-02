@@ -1,7 +1,7 @@
 <h4>More information about: {{model.text}}<br> By: {{model.author}}<br> Notes: {{model.notes}}</h4>
 
 {{#each model.answers as |answer|}}
-  <li>{{answer.text}} By: {{answer.author}}</li>
+  <li>{{answer.text}} By: {{answer.author}} Posted: {{current-date answer.date}}</li>
 {{/each}}
 
 
