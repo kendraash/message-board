@@ -15,7 +15,7 @@
         <label for="notes">Notes</label>
         {{input value=notes id="notes" placeholder=model.notes}}
       </div>
-     <button {{action 'update'}}>Save Changes</button>
+     <button {{action 'update' model}}>Save Changes</button>
     </form>
   </div>
 {{else}}
